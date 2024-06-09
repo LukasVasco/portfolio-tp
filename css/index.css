@@ -27,7 +27,7 @@ a{
     transition: color 1s, font-weight 1s, background-color 1s;
 }
 a:hover{
-    color: rgb(245, 5, 85);
+    color: #f50555;
     font-weight: bold;
 
 }
@@ -456,13 +456,30 @@ footer{
     color: white;
 }
 
+.description{
+    color: #757575;
+}
+
+.title-secundary{
+    color: #f50555;
+}
+.first-section h1{
+    margin: 0;
+}
 
 .first-section{
     display: flex;
     flex-direction: column;
     width: 350px;
-    padding: 10px;
+    padding: 0 40px;
 }
+
+.first-section-header {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
 .first-section p{
     font-size: 18px;
 }
@@ -477,7 +494,6 @@ footer{
 
 .links{
     color: #069bff;
-    text-decoration: underline;
 }
 .ulist{
     font-size: 16px;
@@ -498,4 +514,6 @@ footer{
 .list-style{
     font-size: 18px;
     color: white; 
+    text-decoration: none;
 }
+
