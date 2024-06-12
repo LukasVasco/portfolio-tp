@@ -1,37 +1,205 @@
-@media (max-width:320px) {
+@media (max-width:480px) {
     .nav-links a{
         display: none;
+    }
+    .titulo1, .titulo2{
+        font-size: 80px;
     }
     .button{
         display: none;
     }
     .miclase{
-        font-size: 35px;
+        font-size: 50px;
         display: block;
-        margin-left: 400px;
+        margin-left: 600px;
     }
     /* ------------------------ */
-
     h1{
-        font-size: 46px;
+        font-size: 50px;
 }
      p{
-       font-size: 24px;
+       font-size: 32px;
 }
      .hero{
         background-image: none;
         height: 200px;
-        padding: 30px 0 100px 0;
+        padding: 100px 0 170px 100px;
 }
      .contenido{
         text-align: center;
+        margin-left: 15%;
 }
      .textos{
-        width: 600px;
+        width: 680px;
 }
-
      .button-primary, .button-secundary{
         padding: 12px 50px;
-        font-size: 20px;
+        font-size: 26px;
      }
-   }
+     /* --------------------------- */
+     .about-me{
+        padding-top: 80px;
+        text-align: center;
+     }
+     .about-me-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-me-image {
+        width: 240%; 
+        height: auto;
+    }
+    .about-me-text {
+        padding-top: 20px;
+        width: 220%; 
+    }
+    .about-me-title{
+        font-size: 50px;
+        margin-left: 70%;
+    }
+    .about-me-text p {
+        font-size: 32px;
+        padding: 10px 50px 10px 50px;
+    }
+/* ------------------------- */
+.services{
+    width: 220%;
+}
+.services-title{
+    font-size: 50px;
+}
+.services-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.service-item {
+    flex: none;
+    padding: 10px;
+}
+.service-image {
+    width: 400px;
+    height: auto; 
+}
+.service-description {
+    font-size: 32px;
+}
+/* -------------------- --------------*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.skills-image{
+    display: none;
+}
+.skills-content {
+    width: 800px;
+}
+.skills-description{
+    font-size: 32px;
+    margin-left: 130px;
+    width: 200%;
+    text-align: center;
+}
+.skills-title{
+    font-size: 50px;
+    width: 200%;
+    margin-left: 130px;
+
+}
+.skill-item {
+    width: 100%; 
+
+}
+.skill-bar {
+    max-width: 100%;
+}
+.skill-name{
+    font-size: 32px;
+}
+.skill-bar{
+    height: 20px;
+}
+/* ---------------------------- */
+.previous-works{
+    width: 230%;
+}
+.previous-works-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800%;
+}
+.previous-works-image{
+    width: 400px;
+    height: auto; 
+}
+.previous-works-item{
+    flex: none;
+}
+.previous-works-title{
+    font-size: 50px;
+}
+/* ---------------------------------- */
+.contact{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 210%;
+
+}
+.contact-form{
+width: 200%;
+}
+.form-input{
+    padding: 20px;
+    width: 97%;
+    font-size: 30px;
+}
+.form-textarea{
+    font-size: 30px;
+}
+.form-button{
+    padding: 20px;
+    font-size: 30px;
+}
+.contact-title{
+    font-size: 50px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+/* -------------------------------------- */
+footer{
+    flex-direction: column;
+    width: 217%;
+}
+.first-section{
+ text-align: center;
+ display: flex;
+ align-items: center;
+ margin: 0 300px;
+}
+.title-primary,.title-secundary{
+    font-size: 80px;
+}
+.description p{
+    font-size: 60px;
+}
+.list{
+    justify-content: space-between;
+    margin: 0 100px;
+    text-align: center;
+}
+.ulist ul li{
+font-size: 30px;
+}
+.ulist{
+    padding: 50px;
+}
+}
+
+   
